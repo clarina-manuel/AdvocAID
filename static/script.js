@@ -1,13 +1,13 @@
-// Initialize the carousel (disable auto-ride to stop it from auto-moving)
+//initialize the carousel
 const carousel = new bootstrap.Carousel(document.getElementById('myCarousel'), {
-    interval: false, // Disable auto-slide
-    ride: 'carousel', // Ensure carousel does not auto-start
+    interval: false,
+    ride: 'carousel',
 });
 
 async function submitResponse() {
     const userResponse = document.getElementById('userResponse').value;
 
-    // Send the user's response to the Flask backend
+    //send the user's response to the Flask backend
     const response = await fetch('/generate_feedback', {
         method: 'POST',
         headers: {
@@ -18,7 +18,7 @@ async function submitResponse() {
 
     const data = await response.json();
 
-    // Display the feedback
+    //display the feedback
     document.getElementById('feedback').innerHTML = `
         <h3>Feedback:</h3>
         <p><strong>What AdvocAID AI Recommends To Add To Your Request:</strong> ${data.feedback}</p>
