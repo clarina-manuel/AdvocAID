@@ -1,0 +1,170 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7b5d6;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    color: black;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: 2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+h5 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: 1;
+    color: black;
+}
+
+.negotiation-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    background-color: #d2006f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.negotiation-button:hover {
+    background-color: white;
+    color: #d2006f;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f7b5d6;
+}
+
+.carousel-item h2 {
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 50px;
+    color: #d2006f;
+    margin-top: 50px;
+}
+
+.carousel-item p {
+    font-size: 2.5rem;
+    color: #f7b5d6;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    font-size: 2rem;
+    color: #d2006f;
+}
+
+h1 {
+    font-size: 12rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #d2006f;
+    background-color: #f7b5d6;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.card {
+    font-size: 1.5rem;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d2006f;
+}
+
+.form-control {
+    font-size: 1.6rem;
+    height: 130px;
+    margin-bottom: 20px;
+    border-color: #d2006f;
+}
+
+.btn {
+    font-size: 1.8rem;
+    padding: 15px 25px;
+    background-color: #d2006f;
+    border-color: #d2006f;
+    color: white;
+}
+
+.btn-block:hover {
+    background-color: #f7b5d6;
+    border-color: #f7b5d6;
+    color: #d2006f;
+    outline: none;
+}
+
+button:focus, .btn:focus, button:active, .btn:active {
+    outline: none;
+    color: #d2006f;
+}
+
+#feedback h3 {
+    font-size: 2rem;
+    color: #d2006f;
+}
+
+#feedback p {
+    font-size: 1.6rem;
+    color: #d2006f;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    background-color: #d2006f;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.home-button:hover {
+    background-color: white;
+    color: #d2006f;
+    text-decoration: none;
+}
