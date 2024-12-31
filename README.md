@@ -1,6 +1,6 @@
 <h2>AdvocAID!</h2>
 
----insert gif here---
+![](https://github.com/clarina-manuel/AdvocAID/blob/main/AdvocAID-Demo.gif)
 
 AdvocAID is a web application utilizing a custom-trained GPT-2 model and sentiment analysis in order to provide personalized, generated feedback and tips for women to help build confidence, self-advocacy, and overcome barriers in the workplace.
 
